@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --neon-green: #39ff14;
+  --neon-blue: #4d4dff;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .text-neon-green {
+    color: var(--neon-green);
+  }
+  .text-neon-blue {
+    color: var(--neon-blue);
+  }
+  .bg-neon-green {
+    background-color: var(--neon-green);
+  }
+  .bg-neon-blue {
+    background-color: var(--neon-blue);
+  }
+  .border-neon-green {
+    border-color: var(--neon-green);
+  }
+  .border-neon-blue {
+    border-color: var(--neon-blue);
+  }
+}
