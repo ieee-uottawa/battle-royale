@@ -55,7 +55,11 @@ export default function Hero() {
             size="lg"
             variant="outline"
             className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black"
-            onClick={() => window.scrollTo(0, window.innerHeight)}
+            onClick={() =>
+              document
+                .getElementById("about")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
           >
             Jump into it
           </Button>
@@ -63,7 +67,7 @@ export default function Hero() {
             size="lg"
             variant="outline"
             className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-black"
-            onClick={() => window.open("https://google.com")}
+            onClick={() => window.open("https://discord.gg/vFC4Cn49", "_blank")}
           >
             Join the Discord
           </Button>

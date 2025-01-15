@@ -13,15 +13,15 @@ export default function Navbar() {
               href="#about"
               className="hover:text-neon-green transition-colors"
             >
-              Submissions
+              About
             </a>
           </li>
           <li>
             <a
-              href="#schedule"
+              href="#previous-submissions"
               className="hover:text-neon-green transition-colors"
             >
-              Results
+              Previous Submissions
             </a>
           </li>
           <li>
@@ -44,8 +44,11 @@ export default function Navbar() {
         <Button
           variant="outline"
           className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black"
+          onClick={() =>
+            window.open("https://www.twitch.tv/ieeebattleroyale", "_blank")
+          }
         >
-          Register Now
+          Twitch.tv
         </Button>
       </div>
     </nav>
