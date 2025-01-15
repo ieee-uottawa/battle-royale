@@ -67,11 +67,12 @@ const AboutSection = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-gray-300 p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative z-10">
-      <div className="bg-gray-800 p-6 rounded-xl shadow-md">
-        <h2 className="text-3xl font-bold text-green-500 border-b-2 border-purple-500 pb-2 mb-6 text-center">
+    <div className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative z-10">
+      <div className="bg-gray-800 p-2 md:p-6 rounded-xl shadow-md pt-8">
+        <h2 className="text-lg md:text-3xl font-bold text-neon-green pb-2 mb-6 text-center">
           About Battle Royale Game Jam
         </h2>
+        <hr className="border-t border-gray-700 my-4" />
         {faqData.map((item, index) => (
           <React.Fragment key={index}>
             <AccordionItem question={item.question} answer={item.answer} />

@@ -64,12 +64,13 @@ const Prizes: React.FC = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-gray-300 p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative z-10 mt-16">
-      <div className="bg-gray-800 p-6 rounded-xl shadow-md">
+    <div className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative z-10 mt-16">
+      <div className="bg-gray-800 p-1 md:p-6 rounded-xl shadow-md">
         <div className="container mx-auto px-4 py-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-neon-green">
+          <h2 className="text-lg md:text-3xl font-bold text-center mb-12 text-neon-green">
             BR16 Prizes
           </h2>
+          <hr className="border-t border-gray-700 my-4" />
           <div className="flex md:flex-row justify-center items-end space-y-8 md:space-y-0 xl:space-x-8 space-x-2">
             {prizes.map((prize, index) => (
               <PrizeColumn key={index} {...prize} />

@@ -54,7 +54,7 @@ export default function Hero() {
           <Button
             size="lg"
             variant="outline"
-            className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black"
+            className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black px-2 md:px-4"
             onClick={() =>
               document
                 .getElementById("about")
@@ -66,7 +66,7 @@ export default function Hero() {
           <Button
             size="lg"
             variant="outline"
-            className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-black"
+            className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-black px-2 md:px-4"
             onClick={() => window.open("https://discord.gg/vFC4Cn49", "_blank")}
           >
             Join the Discord

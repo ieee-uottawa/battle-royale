@@ -30,13 +30,14 @@ const PreviousSubmissions: React.FC = () => {
   return (
     <div
       id="previous-submissions"
-      className="bg-gray-900 text-gray-300 p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative mt-16"
+      className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative mt-16"
     >
-      <div className="bg-gray-800 p-6 rounded-xl shadow-md py-16">
+      <div className="bg-gray-800 p1 md:p-6 rounded-xl shadow-md py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-8 text-neon-green">
+          <h2 className="text-lg md:text-3xl font-bold text-center mb-8 text-neon-green">
             Previous Submissions (BR14)
           </h2>
+          <hr className="border-t border-gray-700 my-4" />
           <p className="text-center text-lg mb-8 text-purple-500">
             These are the submissions from Game Jam portion of the event.
           </p>

@@ -13,13 +13,14 @@ const ContactSection: React.FC = () => {
   return (
     <div
       id="previous-submissions"
-      className="bg-gray-900 text-gray-300 p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative mt-16"
+      className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative mt-16"
     >
-      <div className="bg-gray-800 p-6 rounded-xl shadow-md py-16">
+      <div className="bg-gray-800 p-1 md:p-6 rounded-xl shadow-md py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-neon-green">
+          <h2 className="text-lg md:text-3xl font-bold text-center mb-12 text-neon-green">
             Contact Us
           </h2>
+          <hr className="border-t border-gray-700 my-4" />
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg w-full">
             <h3 className="text-2xl font-semibold mb-4 text-neon-blue">
               IEEE uOttawa

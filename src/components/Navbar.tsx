@@ -7,40 +7,42 @@ export default function Navbar() {
         <a href="/" className="text-2xl font-bold text-neon-green">
           BR16
         </a>
-        <ul className="flex space-x-6">
-          <li>
-            <a
-              href="#about"
-              className="hover:text-neon-green transition-colors"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="#previous-submissions"
-              className="hover:text-neon-green transition-colors"
-            >
-              Previous Submissions
-            </a>
-          </li>
-          <li>
-            <a
-              href="#prizes"
-              className="hover:text-neon-green transition-colors"
-            >
-              Prizes
-            </a>
-          </li>
-          <li>
-            <a
-              href="#contact"
-              className="hover:text-neon-green transition-colors"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
+        <div className="hidden md:flex">
+          <ul className="space-x-6 flex">
+            <li>
+              <a
+                href="#about"
+                className="hover:text-neon-green transition-colors"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#previous-submissions"
+                className="hover:text-neon-green transition-colors"
+              >
+                Previous Submissions
+              </a>
+            </li>
+            <li>
+              <a
+                href="#prizes"
+                className="hover:text-neon-green transition-colors"
+              >
+                Prizes
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="hover:text-neon-green transition-colors"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
         <Button
           variant="outline"
           className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black"
