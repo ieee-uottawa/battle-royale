@@ -71,6 +71,9 @@ const Prizes: React.FC = () => {
             BR16 Prizes
           </h2>
           <hr className="border-t border-gray-700 my-4" />
+          <h3 className="text-center">Prizes will be revealed soon!</h3>
+
+          {/* 
           <div className="flex md:flex-row justify-center items-end space-y-8 md:space-y-0 xl:space-x-8 space-x-2">
             {prizes.map((prize, index) => (
               <PrizeColumn key={index} {...prize} />
@@ -99,6 +102,7 @@ const Prizes: React.FC = () => {
               </div>
             </div>
           </div>
+          */}
           <div className="mt-12 text-center">
             <Button
               variant="outline"

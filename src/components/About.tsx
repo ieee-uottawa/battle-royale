@@ -24,26 +24,43 @@ const AccordionItem = ({ question, answer }) => {
 };
 
 const AboutSection = () => {
-  const faqData = [
+  const faqBRData = [
     {
-      question: "Who can enter?",
+      question: "What is BR?",
+      answer:
+        "Battle Royale is a weekend-long event where participants can compete in video-game tournaments and/or a game jam.",
+    },
+    {
+      question: "When is BR16?",
+      answer:
+        "BR16 starts on February 6th, and ends on Feb 9th, at 10AM EST. Game Jam judging will start at 12PM EST and winners will be announced live on our Twitch channel during the closing ceremony.",
+    },
+    {
+      question: "What video-games are played this year?",
+      answer:
+        "The games played at BR16 are Valorant, League of Legends, Minecraft, Stardew Valley and Jack of All Games.",
+    },
+    {
+      question: "How do I enter the tournaments?",
+      answer:
+        "You can sign up for the tournament with the link at the top of our website. Registration is free!",
+    },
+    {
+      question: "Who is organizing BR16?",
+      answer:
+        "BR16 is organized by IEEE uOttawa, IEEE Carleton, IEEE Algonquin, IEEE UBC, and the uOttawa Game Dev Club.",
+    },
+  ];
+
+  const faqGameJamData = [
+    {
+      question: "Who can enter the jam?",
       answer:
         "Anyone 13 years or older can participate. You can work in teams of 1 to 4.",
     },
     {
-      question: "When is the jam?",
-      answer:
-        "The jam starts on March 4th, 2022 at 12:30 PM EST and ends on March 6th, 2022 at 6 PM EST. The judging period will be from 6 PM to 8 PM EST on Sunday, March 6th, and winners will be announced live on our Twitch channel during the closing ceremony.",
-    },
-    {
-      question: "Is there a Discord I can join?",
-      answer:
-        "Yes! There is a dedicated section for the game jam on the Battle Royale server.",
-    },
-    { question: "What is the theme?", answer: "Outer space! Space jam!" },
-    {
-      question: "What are the fields?",
-      answer: `Game Design: Advertise a creative game idea through a website, document, video, or presentation.\nGame Development: Create a game using any engine or language with the theme announced during the opening ceremony.`,
+      question: "What is the theme?",
+      answer: "The theme will be revealed in our opening ceremonies!",
     },
     {
       question: "What can I make my game in?",
@@ -56,11 +73,6 @@ const AboutSection = () => {
         "You can use pre-existing code and legal art/audio assets, but the game should be developed during the jam.",
     },
     {
-      question: "Who will judge the games?",
-      answer:
-        "Graduate students from Carleton University will volunteer as judges.",
-    },
-    {
       question: "What will the games be judged on?",
       answer: `Creativity, Fun, Theme, Mood, Graphics, Audio, and Overall Game Feel. Judges value innovation, polish, and enjoyment.`,
     },
@@ -70,13 +82,27 @@ const AboutSection = () => {
     <div className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative z-10">
       <div className="bg-gray-800 p-2 md:p-6 rounded-xl shadow-md pt-8">
         <h2 className="text-lg md:text-3xl font-bold text-neon-green pb-2 mb-6 text-center">
-          About Battle Royale Game Jam
+          About BR16
         </h2>
         <hr className="border-t border-gray-700 my-4" />
-        {faqData.map((item, index) => (
+        {faqBRData.map((item, index) => (
           <React.Fragment key={index}>
             <AccordionItem question={item.question} answer={item.answer} />
-            {index < faqData.length - 1 && (
+            {index < faqBRData.length - 1 && (
+              <hr className="border-t border-gray-700 my-4" />
+            )}
+          </React.Fragment>
+        ))}
+      </div>
+      <div className="bg-gray-800 p-2 md:p-6 rounded-xl shadow-md pt-8 mt-8">
+        <h2 className="text-lg md:text-3xl font-bold text-neon-green pb-2 mb-6 text-center">
+          About BR16 Game Jam
+        </h2>
+        <hr className="border-t border-gray-700 my-4" />
+        {faqGameJamData.map((item, index) => (
+          <React.Fragment key={index}>
+            <AccordionItem question={item.question} answer={item.answer} />
+            {index < faqGameJamData.length - 1 && (
               <hr className="border-t border-gray-700 my-4" />
             )}
           </React.Fragment>

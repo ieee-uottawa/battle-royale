@@ -56,12 +56,10 @@ export default function Hero() {
             variant="outline"
             className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black px-2 md:px-4"
             onClick={() =>
-              document
-                .getElementById("about")
-                ?.scrollIntoView({ behavior: "smooth" })
+              window.open("https://www.twitch.tv/ieeebattleroyale", "_blank")
             }
           >
-            Jump into it
+            Twitch.tv
           </Button>
           <Button
             size="lg"

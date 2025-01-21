@@ -47,10 +47,13 @@ export default function Navbar() {
           variant="outline"
           className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black"
           onClick={() =>
-            window.open("https://www.twitch.tv/ieeebattleroyale", "_blank")
+            window.open(
+              "https://docs.google.com/forms/d/e/1FAIpQLSc081bF-4m9ZTJNCAd9-OnXYwgsOPcZbLodAbbv8LF4Hpl5cA/viewform?usp=header",
+              "_blank"
+            )
           }
         >
-          Twitch.tv
+          Register
         </Button>
       </div>
     </nav>

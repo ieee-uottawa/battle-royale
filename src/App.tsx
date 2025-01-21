@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import PreviousSubmissions from "./components/PreviousSubmissions";
+import Patronage from "./components/Patronage";
 import Prizes from "./components/Prizes";
 import Contact from "./components/Contact";
 import Background from "./components/Background";
@@ -18,6 +19,9 @@ function App() {
         </div>
         <div id="previous-results">
           <PreviousSubmissions />
+        </div>
+        <div id="patronage">
+          <Patronage />
         </div>
         <div id="prizes">
           <Prizes />
