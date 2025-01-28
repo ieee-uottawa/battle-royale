@@ -8,7 +8,10 @@ const ContactSection: React.FC = () => {
     <div id="previous-submissions" className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative my-16">
       <div className="bg-gray-800 p-1 md:p-6 rounded-xl shadow-md py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-lg md:text-3xl font-bold text-center mb-12 text-neon-green">Contact Us</h2>
+          <div className="text-center my-12">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Contact Us</h1>
+            <p className="text-2xl md:text-4xl font-bold text-green-400">o_O</p>
+          </div>
           <hr className="border-t border-gray-700 my-4" />
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg w-full space-y-6">
             <h3 className="text-2xl font-semibold mb-4 text-neon-blue">Co-leads</h3>

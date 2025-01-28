@@ -7,8 +7,20 @@ export default function Navbar() {
         <a href="/" className="text-2xl font-bold text-neon-green">
           BR16
         </a>
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <ul className="space-x-6 flex">
+            <li>
+              <a href="#fundraiser" className="hover:text-neon-green transition-colors">
+                Fundraiser
+              </a>
+            </li>
+            <li className="text-white">•</li>
+            <li>
+              <a href="#prizes" className="hover:text-neon-green transition-colors">
+                Prizes
+              </a>
+            </li>
+            <li className="text-white">•</li>
             <li>
               <a href="#about" className="hover:text-neon-green transition-colors">
                 About
@@ -16,14 +28,8 @@ export default function Navbar() {
             </li>
             <li className="text-white">•</li>
             <li>
-              <a href="#previous-submissions" className="hover:text-neon-green transition-colors">
-                Previous Submissions
-              </a>
-            </li>
-            <li className="text-white">•</li>
-            <li>
-              <a href="#prizes" className="hover:text-neon-green transition-colors">
-                Prizes
+              <a href="#patronage" className="hover:text-neon-green transition-colors">
+                Patronage
               </a>
             </li>
             <li className="text-white">•</li>
