@@ -10,34 +10,22 @@ export default function Navbar() {
         <div className="hidden md:flex">
           <ul className="space-x-6 flex">
             <li>
-              <a
-                href="#about"
-                className="hover:text-neon-green transition-colors"
-              >
+              <a href="#about" className="hover:text-neon-green transition-colors">
                 About
               </a>
             </li>
             <li>
-              <a
-                href="#previous-submissions"
-                className="hover:text-neon-green transition-colors"
-              >
+              <a href="#previous-submissions" className="hover:text-neon-green transition-colors">
                 Previous Submissions
               </a>
             </li>
             <li>
-              <a
-                href="#prizes"
-                className="hover:text-neon-green transition-colors"
-              >
+              <a href="#prizes" className="hover:text-neon-green transition-colors">
                 Prizes
               </a>
             </li>
             <li>
-              <a
-                href="#contact"
-                className="hover:text-neon-green transition-colors"
-              >
+              <a href="#contact" className="hover:text-neon-green transition-colors">
                 Contact
               </a>
             </li>
@@ -46,12 +34,7 @@ export default function Navbar() {
         <Button
           variant="outline"
           className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black"
-          onClick={() =>
-            window.open(
-              "https://docs.google.com/forms/d/e/1FAIpQLSc081bF-4m9ZTJNCAd9-OnXYwgsOPcZbLodAbbv8LF4Hpl5cA/viewform?usp=header",
-              "_blank"
-            )
-          }
+          onClick={() => window.open("https://www.start.gg/tournament/battle-royale-16/details", "_blank")}
         >
           Register
         </Button>
