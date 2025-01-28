@@ -14,16 +14,19 @@ export default function Navbar() {
                 About
               </a>
             </li>
+            <li className="text-white">•</li>
             <li>
               <a href="#previous-submissions" className="hover:text-neon-green transition-colors">
                 Previous Submissions
               </a>
             </li>
+            <li className="text-white">•</li>
             <li>
               <a href="#prizes" className="hover:text-neon-green transition-colors">
                 Prizes
               </a>
             </li>
+            <li className="text-white">•</li>
             <li>
               <a href="#contact" className="hover:text-neon-green transition-colors">
                 Contact
