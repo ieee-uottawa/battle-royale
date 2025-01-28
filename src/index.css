@@ -5,13 +5,8 @@
 :root {
   --neon-green: #39ff14;
   --neon-blue: #4d4dff;
+  --neon-purple: #aa72ff;
   scroll-behavior: smooth;
-}
-
-@layer base {
-  body {
-    @apply bg-black text-white;
-  }
 }
 
 @layer utilities {
@@ -21,16 +16,25 @@
   .text-neon-blue {
     color: var(--neon-blue);
   }
+  .text-neon-purple {
+    color: var(--neon-purple);
+  }
   .bg-neon-green {
     background-color: var(--neon-green);
   }
   .bg-neon-blue {
     background-color: var(--neon-blue);
   }
+  .bg-neon-purple {
+    background-color: var(--neon-purple);
+  }
   .border-neon-green {
     border-color: var(--neon-green);
   }
   .border-neon-blue {
     border-color: var(--neon-blue);
+  }
+  .border-neon-purple {
+    border-color: var(--neon-purple);
   }
 }

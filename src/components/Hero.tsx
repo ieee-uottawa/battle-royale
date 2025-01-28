@@ -24,13 +24,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 text-center z-10">
         <svg viewBox="0 0 1000 200" className="w-full max-w-4xl mx-auto mb-8">
           <defs>
-            <linearGradient
-              id="titleGradient"
-              x1="0%"
-              y1="0%"
-              x2="100%"
-              y2="0%"
-            >
+            <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stopColor="#39ff14" />
               <stop offset="100%" stopColor="#4d4dff" />
             </linearGradient>
@@ -50,14 +44,12 @@ export default function Hero() {
             BATTLE ROYALE
           </text>
         </svg>
-        <div className="flex justify-center space-x-4">
+        <div className="flex flex-wrap gap-2 text-center justify-center">
           <Button
             size="lg"
             variant="outline"
             className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black px-2 md:px-4"
-            onClick={() =>
-              window.open("https://www.twitch.tv/ieeebattleroyale", "_blank")
-            }
+            onClick={() => window.open("https://www.twitch.tv/ieeebattleroyale", "_blank")}
           >
             Twitch.tv
           </Button>
@@ -68,6 +60,14 @@ export default function Hero() {
             onClick={() => window.open("https://discord.gg/vFC4Cn49", "_blank")}
           >
             Join the Discord
+          </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-black px-2 md:px-4"
+            onClick={() => window.open("https://docs.google.com/spreadsheets/d/1PyDkTg6oNtPSsIYSyHldNYzwrC--tLwviM4uBHDF3VA/edit?usp=sharing", "_blank")}
+          >
+            Schedule
           </Button>
         </div>
       </div>
