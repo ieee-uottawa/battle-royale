@@ -6,6 +6,7 @@
   --neon-green: #39ff14;
   --neon-blue: #4d4dff;
   --neon-purple: #aa72ff;
+  --neon-pink: #ff6ac1;
   scroll-behavior: smooth;
 }
 
@@ -19,6 +20,9 @@
   .text-neon-purple {
     color: var(--neon-purple);
   }
+  .text-neon-pink {
+    color: var(--neon-pink);
+  }
   .bg-neon-green {
     background-color: var(--neon-green);
   }
@@ -28,6 +32,9 @@
   .bg-neon-purple {
     background-color: var(--neon-purple);
   }
+  .bg-neon-pink {
+    background-color: var(--neon-pink);
+  }
   .border-neon-green {
     border-color: var(--neon-green);
   }
@@ -36,5 +43,8 @@
   }
   .border-neon-purple {
     border-color: var(--neon-purple);
+  }
+  .border-neon-pink {
+    border-color: var(--neon-pink);
   }
 }

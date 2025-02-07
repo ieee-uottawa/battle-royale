@@ -69,6 +69,14 @@ export default function Hero() {
           >
             Schedule
           </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="border-neon-pink text-neon-pink hover:bg-neon-pink hover:text-black px-2 md:px-4"
+            onClick={() => window.open("https://itch.io/jam/battle-royal-xvi-malfunction-game-jam", "_blank")}
+          >
+            Game Jam
+          </Button>
         </div>
       </div>
     </section>
