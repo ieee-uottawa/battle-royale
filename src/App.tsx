@@ -15,7 +15,7 @@ function App() {
       <div className="relative z-10">
         <Navbar />
         <Hero />
-        <div id="charity">
+        <div id="fundraiser">
           <Charity />
         </div>
         <div id="prizes">
