@@ -29,7 +29,7 @@ const PreviousSubmissions: React.FC = () => {
       <div className="bg-gray-800 p1 md:p-6 rounded-xl shadow-md py-16">
         <div className="container mx-auto px-4">
           <div className="text-center my-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Previous Submissions</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-linear-to-r from-green-400 to-blue-500">Previous Submissions</h1>
             <p className="text-2xl md:text-4xl font-bold text-green-400">BR14 Game Jam</p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 mb-12">

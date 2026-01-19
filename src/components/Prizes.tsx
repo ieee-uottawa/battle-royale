@@ -95,7 +95,7 @@ export default function Prizes() {
     <div className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative z-10 mt-16">
       <div className="bg-gray-800 p-1 md:p-6 rounded-xl shadow-md">
         <div className="text-center my-12">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Prizes</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-linear-to-r from-green-400 to-blue-500">Prizes</h1>
           <p className="text-2xl md:text-4xl font-bold text-green-400">$2600 TOTAL</p>
         </div>
 

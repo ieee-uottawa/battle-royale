@@ -8,7 +8,7 @@ const AccordionItem = ({ question, answer }) => {
     <div className="mb-4">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full text-left text-xl text-purple-400 font-semibold bg-gray-800 p-4 rounded-lg hover:bg-gray-700 focus:outline-none focus:ring focus:ring-purple-500"
+        className="w-full text-left text-xl text-purple-400 font-semibold bg-gray-800 p-4 rounded-lg hover:bg-gray-700 focus:outline-hidden focus:ring-3 focus:ring-purple-500"
       >
         {question}
       </button>
@@ -71,7 +71,7 @@ const AboutSection = () => {
     <div className="bg-gray-900 text-gray-300 p-4 md:p-8 rounded-lg shadow-lg max-w-4xl mx-auto relative z-10 mt-16">
       <div className="bg-gray-800 p-2 md:p-6 rounded-xl shadow-md pt-8">
         <div className="text-center my-12">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">About BR16</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-linear-to-r from-green-400 to-blue-500">About BR16</h1>
           <p className="text-2xl md:text-4xl font-bold text-green-400">General</p>
         </div>
         <hr className="border-t border-gray-700 my-4" />

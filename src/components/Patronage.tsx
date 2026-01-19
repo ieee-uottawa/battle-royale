@@ -8,7 +8,7 @@ export default function Patronage() {
       <div className="bg-gray-800 p-1 md:p-6 rounded-xl shadow-md">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center mt-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Sponsors</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-linear-to-r from-green-400 to-blue-500">Sponsors</h1>
           </div>
           <a href="https://www.zerolatencyvr.com/" target="_blank" rel="noreferrer">
             <img src={zl} alt="Zero Latency" className="p-8 mx-auto object-contain my-4" />

@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'default' | 'outline'
+  variant?: 'default' | 'outline-solid'
   size?: 'default' | 'lg'
 }
 

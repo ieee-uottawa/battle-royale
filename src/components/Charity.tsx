@@ -8,7 +8,7 @@ export default function Charity() {
       <div className="bg-gray-800 p-1 md:p-6 rounded-xl shadow-md">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Fundraiser</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-linear-to-r from-green-400 to-blue-500">Fundraiser</h1>
 
             <img src={ccs} alt="Canadian Cancer Society" className=" bg-[#ffd81a] mx-auto my-16 p-2" />
           </div>
