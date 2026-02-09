@@ -12,7 +12,7 @@ export default function Patronage() {
               Sponsors
             </h1>
           </div>
-          <a
+{ /*         <a
             href="https://www.zerolatencyvr.com/"
             target="_blank"
             rel="noreferrer"
@@ -23,9 +23,9 @@ export default function Patronage() {
               className="p-8 mx-auto object-contain my-4"
             />
           </a>
-          <hr className="border-t border-gray-700 my-4" />
+          <hr className="border-t border-gray-700 my-4" />*/}
           <h3 className="text-center">
-            Looking to sponsor the next edition of BR? <br />
+            Looking to sponsor this year's BR? <br />
             Send us an email at{" "}
             <a
               href="mailto:patronage@battleroyale.ca "

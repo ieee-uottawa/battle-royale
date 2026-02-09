@@ -41,7 +41,7 @@ const AboutSection = () => {
     },
     {
       question: "What video-games are played this year?",
-      answer: "The games played at BR17 are TBD",
+      answer: "The games played at BR17 are Valorant, League of Legends, Minecraft, Fortnite and Jack of All Games",
     },
     {
       question: "How do I enter the tournaments?",
@@ -50,7 +50,7 @@ const AboutSection = () => {
     },
     {
       question: "Who is organizing BR17?",
-      answer: "BR17 is organized by IEEE uOttawa, IEEE Algonquin and IEEE UBC.",
+      answer: "BR17 is organized by IEEE uOttawa, IEEE Algonquin, IEEE UBC and IEEE UoGuelph.",
     },
   ];
 

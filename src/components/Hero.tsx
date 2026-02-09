@@ -78,7 +78,7 @@ export default function Hero() {
             className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-black px-2 md:px-4"
             onClick={() =>
               window.open(
-                "https://docs.google.com/spreadsheets/d/1PyDkTg6oNtPSsIYSyHldNYzwrC--tLwviM4uBHDF3VA/edit?usp=sharing",
+                "https://docs.google.com/spreadsheets/d/1Oc4X2Q59G2wQ5bzao-aqXk8YMZ9WowOOmEA-j5707HI/edit?gid=0#gid=0",
                 "_blank",
               )
             }

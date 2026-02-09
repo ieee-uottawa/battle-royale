@@ -30,25 +30,25 @@ const ContactSection: React.FC = () => {
             </h3>
             <div className="flex flex-col gap-6">
               <a
-                href="mailto:sam@battleroyale.ca"
+                href="mailto:vice-chair@ieeeuottawa.ca"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neon-green hover:text-neon-green/80"
               >
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 mr-4" />
-                  <p className="text-white">sam@battleroyale.ca</p>
+                  <p className="text-white">vice-chair@ieeeuottawa.ca</p>
                 </div>
               </a>
               <a
-                href="mailto:jorja@battleroyale.ca"
+                href="mailto:chair@ubcieee.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neon-green hover:text-neon-green/80"
               >
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 mr-4" />
-                  <p className="text-white">jorja@battleroyale.ca</p>
+                  <p className="text-white">chair@ubcieee.org</p>
                 </div>
               </a>
             </div>
@@ -96,26 +96,26 @@ const ContactSection: React.FC = () => {
                 </div>
               </a>
             </div>
-            {/*<hr />
-            <h3 className="text-2xl font-semibold mb-4 text-neon-blue">IEEE Carleton</h3>
+            <hr />
+            <h3 className="text-2xl font-semibold mb-4 text-neon-blue">IEEE UBC</h3>
             <div className="space-y-4">
               <div className="flex items-center">
-                <a href="mailto:chair@ieeecarleton.ca" target="_blank" rel="noopener noreferrer" className="text-neon-green hover:text-neon-green/80">
+                <a href="mailto:chair@ubcieee.org" target="_blank" rel="noopener noreferrer" className="text-neon-green hover:text-neon-green/80">
                   <div className="flex items-center">
                     <Mail className="w-6 h-6 mr-4" />
-                    <p className="text-white">chair@ieeecarleton.ca</p>
+                    <p className="text-white">chair@ubcieee.org</p>
                   </div>
                 </a>
               </div>
               <div className="flex items-center">
-                <a href="https://www.instagram.com/ieeecarleton/" target="_blank" rel="noopener noreferrer" className="text-neon-green hover:text-neon-green/80">
+                <a href="https://www.instagram.com/ubcieee/" target="_blank" rel="noopener noreferrer" className="text-neon-green hover:text-neon-green/80">
                   <div className="flex items-center">
                     <FaInstagram className="w-6 h-6 mr-4" />
-                    <p className="text-white">ieeecarleton</p>
+                    <p className="text-white">ubcieee</p>
                   </div>
                 </a>
               </div>
-            </div>*/}
+            </div>
           </div>
         </div>
       </div>
