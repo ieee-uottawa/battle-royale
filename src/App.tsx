@@ -24,9 +24,9 @@ function App() {
         <div id="about">
           <About />
         </div>
-        <div id="previous-results">
+        {/*<div id="previous-results">
           <PreviousSubmissions />
-        </div>
+        </div>*/}
         <div id="patronage">
           <Patronage />
         </div>
