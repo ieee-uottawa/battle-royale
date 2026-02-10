@@ -3,8 +3,8 @@ import Button from "./Button";
 import unicef from "../assets/unicef.png";
 
 export default function Charity() {
-  // This would typically come from an API or state management
-  const [currentDonation, setCurrentDonation] = useState(0);
+
+  const currentDonation = 0
   const totalGoal = 1000;
 
   const milestones = [
@@ -109,37 +109,6 @@ export default function Charity() {
                     </div>
                   );
                 })}
-              </div>
-
-              {/* Demo Controls */}
-              <div className="text-center mb-6 border border-gray-600 rounded p-4">
-                <p className="text-sm text-gray-400 mb-3">Demo Controls (remove in production):</p>
-                <div className="flex justify-center gap-2 flex-wrap">
-                  <button
-                    className="px-3 py-1 bg-blue-600 rounded text-xs hover:bg-blue-500"
-                    onClick={() => setCurrentDonation(Math.max(0, currentDonation - 25))}
-                  >
-                    -$25
-                  </button>
-                  <button
-                    className="px-3 py-1 bg-green-600 rounded text-xs hover:bg-green-500"
-                    onClick={() => setCurrentDonation(currentDonation + 25)}
-                  >
-                    +$25
-                  </button>
-                  <button
-                    className="px-3 py-1 bg-yellow-600 rounded text-xs hover:bg-yellow-500"
-                    onClick={() => setCurrentDonation(currentDonation + 100)}
-                  >
-                    +$100
-                  </button>
-                  <button
-                    className="px-3 py-1 bg-red-600 rounded text-xs hover:bg-red-500"
-                    onClick={() => setCurrentDonation(0)}
-                  >
-                    Reset
-                  </button>
-                </div>
               </div>
             </div>
 
