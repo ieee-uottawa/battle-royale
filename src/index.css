@@ -1,50 +1,150 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
 
-:root {
-  --neon-green: #39ff14;
-  --neon-blue: #4d4dff;
-  --neon-purple: #aa72ff;
-  --neon-pink: #ff6ac1;
-  scroll-behavior: smooth;
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility text-br-navy {
+  color: var(--br-navy);
+}
+
+@utility text-br-teal {
+  color: var(--br-teal);
+}
+
+@utility text-br-gray {
+  color: var(--br-gray);
+}
+
+@utility text-br-gold {
+  color: var(--br-gold);
+}
+
+@utility text-neon-green {
+  color: var(--neon-green);
+}
+
+@utility text-neon-blue {
+  color: var(--neon-blue);
+}
+
+@utility text-neon-purple {
+  color: var(--neon-purple);
+}
+
+@utility text-neon-pink {
+  color: var(--neon-pink);
+}
+
+@utility bg-br-navy {
+  background-color: var(--br-navy);
+}
+
+@utility bg-br-teal {
+  background-color: var(--br-teal);
+}
+
+@utility bg-br-gray {
+  background-color: var(--br-gray);
+}
+
+@utility bg-br-gold {
+  background-color: var(--br-gold);
+}
+
+@utility bg-neon-green {
+  background-color: var(--neon-green);
+}
+
+@utility bg-neon-blue {
+  background-color: var(--neon-blue);
+}
+
+@utility bg-neon-purple {
+  background-color: var(--neon-purple);
+}
+
+@utility bg-neon-pink {
+  background-color: var(--neon-pink);
+}
+
+@utility border-br-navy {
+  border-color: var(--br-navy);
+}
+
+@utility border-br-teal {
+  border-color: var(--br-teal);
+}
+
+@utility border-br-gray {
+  border-color: var(--br-gray);
+}
+
+@utility border-br-gold {
+  border-color: var(--br-gold);
+}
+
+@utility border-neon-green {
+  border-color: var(--neon-green);
+}
+
+@utility border-neon-blue {
+  border-color: var(--neon-blue);
+}
+
+@utility border-neon-purple {
+  border-color: var(--neon-purple);
+}
+
+@utility border-neon-pink {
+  border-color: var(--neon-pink);
 }
 
 @layer utilities {
-  .text-neon-green {
-    color: var(--neon-green);
+  :root {
+    --br-navy: #132149;
+    --br-teal: #83e8e2;
+    --br-gray: #e8e8e9;
+    --br-gold: #f7e19d;
+    --neon-green: #39ff14;
+    --neon-blue: #4d4dff;
+    --neon-purple: #aa72ff;
+    --neon-pink: #ff6ac1;
+    scroll-behavior: smooth;
+    font-family: "Inter";
   }
-  .text-neon-blue {
-    color: var(--neon-blue);
-  }
-  .text-neon-purple {
-    color: var(--neon-purple);
-  }
-  .text-neon-pink {
-    color: var(--neon-pink);
-  }
-  .bg-neon-green {
-    background-color: var(--neon-green);
-  }
-  .bg-neon-blue {
-    background-color: var(--neon-blue);
-  }
-  .bg-neon-purple {
-    background-color: var(--neon-purple);
-  }
-  .bg-neon-pink {
-    background-color: var(--neon-pink);
-  }
-  .border-neon-green {
-    border-color: var(--neon-green);
-  }
-  .border-neon-blue {
-    border-color: var(--neon-blue);
-  }
-  .border-neon-purple {
-    border-color: var(--neon-purple);
-  }
-  .border-neon-pink {
-    border-color: var(--neon-pink);
-  }
+}
+
+@font-face {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@theme {
+  --font-spartan: "League Spartan";
+  --font-horizon: "Horizon";
+  --font-inter: "Inter";
 }

@@ -11,7 +11,7 @@ export default function Background() {
       >
         <defs>
           <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#00ff00" stopOpacity="0.1">
+            <stop offset="0%" stopColor="#132149" stopOpacity="0.1">
               <animate
                 attributeName="stopOpacity"
                 values="0.1;0.3;0.1"
@@ -33,7 +33,7 @@ export default function Background() {
             </stop>
           </linearGradient>
           <radialGradient id="pulse" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#00ff00" stopOpacity="0.3">
+            <stop offset="0%" stopColor="#132149" stopOpacity="0.3">
               <animate
                 attributeName="stopOpacity"
                 values="0.3;0.7;0.3"
@@ -43,7 +43,7 @@ export default function Background() {
                 keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"
               />
             </stop>
-            <stop offset="100%" stopColor="#00ff00" stopOpacity="0" />
+            <stop offset="100%" stopColor="#132149" stopOpacity="0" />
           </radialGradient>
         </defs>
         <rect width="100%" height="100%" fill="url(#grad)" />
@@ -57,7 +57,7 @@ export default function Background() {
             keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"
           />
         </circle>
-        <g fill="none" stroke="#00ff00" strokeWidth="2" opacity="0.5">
+        <g fill="none" stroke="#83e8e2" strokeWidth="2" opacity="0.5">
           <circle cx="500" cy="500" r="200" opacity="0.2">
             <animate
               attributeName="r"
@@ -96,7 +96,7 @@ export default function Background() {
               cx={Math.random() * 1000}
               cy={Math.random() * 1000}
               r={Math.random() * 4 + 2}
-              fill="#00ff00"
+              fill="#83e8e2"
               opacity="0.7"
             >
               <animate
@@ -124,7 +124,7 @@ export default function Background() {
         </g>
         <path
           d="M0,1000 C300,800 700,1200 1000,1000 L1000,1000 L0,1000 Z"
-          fill="#00ff00"
+          fill="#83e8e2"
           opacity="0.2"
         >
           <animate

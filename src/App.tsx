@@ -10,7 +10,7 @@ import Background from "./components/Background";
 
 function App() {
   return (
-    <main className="min-h-screen bg-black text-white overflow-hidden relative">
+    <main className="min-h-screen bg-black text-white overflow-x-hidden relative" style={{ minHeight: '100vh' }}>
       <Background />
       <div className="relative z-10">
         <Navbar />
@@ -23,9 +23,6 @@ function App() {
         </div>
         <div id="about">
           <About />
-        </div>
-        <div id="previous-results">
-          <PreviousSubmissions />
         </div>
         <div id="patronage">
           <Patronage />

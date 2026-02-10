@@ -17,14 +17,23 @@ export default function Hero() {
               filter: "drop-shadow(0 0 20px rgba(57, 255, 20, 0.5))",
             }}
           >
-            16
+            17
           </text>
         </svg>
       </div>
-      <div className="container mx-auto px-4 text-center z-10">
-        <svg viewBox="0 0 1000 200" className="w-full max-w-4xl mx-auto mb-8">
+      <div className="container mx-auto px-4 text-center z-10 ">
+        <svg
+          viewBox="0 0 1000 200"
+          className="w-full max-w-4xl mx-auto mb-8 font-spartan"
+        >
           <defs>
-            <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <linearGradient
+              id="titleGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
               <stop offset="0%" stopColor="#39ff14" />
               <stop offset="100%" stopColor="#4d4dff" />
             </linearGradient>
@@ -47,15 +56,17 @@ export default function Hero() {
         <div className="flex flex-wrap gap-2 text-center justify-center">
           <Button
             size="lg"
-            variant="outline"
+            variant="outline-solid"
             className="border-neon-green text-neon-green hover:bg-neon-green hover:text-black px-2 md:px-4"
-            onClick={() => window.open("https://www.twitch.tv/ieeebattleroyale", "_blank")}
+            onClick={() =>
+              window.open("https://www.twitch.tv/ieeebattleroyale", "_blank")
+            }
           >
             Twitch.tv
           </Button>
           <Button
             size="lg"
-            variant="outline"
+            variant="outline-solid"
             className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-black px-2 md:px-4"
             onClick={() => window.open("https://discord.gg/vFC4Cn49", "_blank")}
           >
@@ -63,19 +74,16 @@ export default function Hero() {
           </Button>
           <Button
             size="lg"
-            variant="outline"
+            variant="outline-solid"
             className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-black px-2 md:px-4"
-            onClick={() => window.open("https://docs.google.com/spreadsheets/d/1PyDkTg6oNtPSsIYSyHldNYzwrC--tLwviM4uBHDF3VA/edit?usp=sharing", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/spreadsheets/d/1Oc4X2Q59G2wQ5bzao-aqXk8YMZ9WowOOmEA-j5707HI/edit?gid=0#gid=0",
+                "_blank",
+              )
+            }
           >
             Schedule
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-neon-pink text-neon-pink hover:bg-neon-pink hover:text-black px-2 md:px-4"
-            onClick={() => window.open("https://itch.io/jam/battle-royal-xvi-malfunction-game-jam", "_blank")}
-          >
-            Game Jam
           </Button>
         </div>
       </div>
