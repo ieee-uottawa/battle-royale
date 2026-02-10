@@ -75,7 +75,7 @@ export default function Prizes() {
       <div className="bg-gray-800 p-1 md:p-6 rounded-xl shadow-md">
         <div className="text-center my-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-linear-to-r from-green-400 to-blue-500">Prizes</h1>
-          <p className="text-2xl md:text-4xl font-bold text-green-400">$2600 TOTAL</p>
+          <p className="text-2xl md:text-4xl font-bold text-green-400">$1200 TOTAL</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

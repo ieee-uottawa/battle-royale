@@ -61,7 +61,7 @@ export default function Navbar() {
           className="border-br-teal text-br-teal hover:bg-br-teal hover:text-black"
           onClick={() =>
             window.open(
-              "https://www.start.gg/tournament/battle-royale-16/details",
+              "https://www.start.gg/tournament/battle-royale-17/register",
               "_blank",
             )
           }

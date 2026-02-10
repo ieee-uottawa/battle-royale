@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import ccs from "../assets/ccs.svg";
+import unicef from "../assets/unicef.png";
 
 export default function Charity() {
   return (
@@ -13,34 +13,30 @@ export default function Charity() {
             </h1>
 
             <img
-              src={ccs}
-              alt="Canadian Cancer Society"
-              className=" bg-[#ffd81a] mx-auto my-16 p-2"
+              src={unicef}
+              alt="Unicef"
+              className=" bg-white mx-auto my-16 p-2 w-96"
             />
           </div>
           <hr className="border-t border-gray-700 my-4" />
           <h3 className="text-center">
-            About the{" "}
+            About {" "}
             <strong>
               <a
-                href="https://cancer.ca/en/about-us"
+                href="https://www.unicef.org/what-we-do"
                 target="_blank"
                 className="underline text-xl hover:text-yellow-400"
               >
-                Canadian Cancer Society.
+                Unicef
               </a>
             </strong>
           </h3>
           <p className="text-center text-md">
             <br />
-            <strong>Our Purpose:</strong> To unite and inspire all Canadians to
-            take control of cancer.
+            <strong>What we do:</strong> UNICEF works in over 190 countries and territories to protect the rights of every child.
             <br />
             <br />
-            <strong>Our Mission:</strong> In trusted partnership with donors and
-            volunteers, we improve the lives of all those affected by cancer
-            through world-class research, transformative advocacy and
-            compassionate support.
+            <strong>How we do it:</strong> With decades of field-tested expertise, a passion for innovation, and a network that spans the globe, UNICEF turns commitment into action. See why we're the leading child rights organization on the planet.
             <br />
           </p>
           <div className="mt-12 text-center">
