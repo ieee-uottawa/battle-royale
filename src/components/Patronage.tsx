@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import zl from "../assets/zl.jpg";
+import ottawa_section from "../assets/ottawa_section.png";
 
 export default function Patronage() {
   return (
@@ -12,7 +12,8 @@ export default function Patronage() {
               Sponsors
             </h1>
           </div>
-{ /*         <a
+
+          {/*         <a
             href="https://www.zerolatencyvr.com/"
             target="_blank"
             rel="noreferrer"
@@ -24,6 +25,14 @@ export default function Patronage() {
             />
           </a>
           <hr className="border-t border-gray-700 my-4" />*/}
+          <a href="https://www.ieeeottawa.ca/" target="_blank" rel="noreferrer">
+            <img
+              src={ottawa_section}
+              alt="IEEE Ottawa Section"
+              className="p-8 mx-auto object-contain my-4 border border-blue-800 rounded-2xl"
+            />
+          </a>
+          <hr className="border-t border-gray-700 my-4" />
           <h3 className="text-center">
             Looking to sponsor this year's BR? <br />
             Send us an email at{" "}
